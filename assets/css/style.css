@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/washi.png");
+    margin: 0px;
+}
+
+/* Header for all pages */
+.header {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    background-color: #ffffff;
+    width: 100%;
+    display: inline-block;
+}
+
+.header-content-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.gray-bottom-border {
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #dddddd; 
+}
+
+h1 {
+    float: left;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+}
+
+nav > a {
+    color: #707070;
+    text-decoration: none;
+}
+
+/* container for all pages */
+.body-content-container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #777777;
+}
+
+/* header for all pages (about me, portfolio, contact) */
+.body-content-header {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #4aaaa5;
+    margin: 20px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+#self-portrait {
+    height: 150px;
+    width: 200px;
+    float: left;
+    padding: 0px 20px
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    font-size: xx-small;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: #4aaaa5;
+    padding: 5px;
+}
