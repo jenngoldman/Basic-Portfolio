@@ -86,7 +86,7 @@ p {
     line-height: 2;
     margin: auto;
 }
-
+/* Contact Page */ 
 /* Contact form input containers. */
 input[type=text], textarea {
     border-color: #dddddd;
@@ -116,7 +116,8 @@ textarea {
     font-size: large;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
-/* Portfolio Images */
+/* Portfolio Page */
+/*Images */
 img {
     height: 150px;
     margin-bottom: 10px;
